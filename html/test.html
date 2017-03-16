@@ -25,6 +25,24 @@
         <input type="text" id="phone"/>
         <input type="submit" value="提交">
     </div>
+
+<!--
+    块级元素可以设置宽高，行内元素设置宽高无效
+
+    行内元素添加float之后 设置宽高有效
+
+    块级元素转换成行内元素之后设置宽高无效
+-->
+
+    <div>
+        <div style="float: left">
+            <img  src="../images/mall/1.jpg" alt=""/>
+        </div>
+        <p>asdfasdfkahkdjfhkalhsdkfafasdfasdfkahkdj
+            fhkalhsdkfafasdfasdfkahkdjfhkalhsdkfafa
+            sdfasdfkahkdjfhkalhsdkfafasdfasdfkahkdj
+            fhkalhsdkfaf</p>
+    </div>
 </div>
 
 </body>
