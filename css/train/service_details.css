@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+/* CSS初始化 */
+body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select { margin: 0; padding: 0 ;}
+body{ font: "微软雅黑"; -webkit-text-size-adjust: 100%;}
+a { text-decoration: none; }
+a:hover { text-decoration: none; }
+em { font-style: normal; }
+li { list-style:none;  }
+table { border-collapse: collapse; border-spacing: 0; }
+p { word-wrap: break-word; }
+
+.all_{background: #f1f1f1;}
+.head{background: #53a3ec; text-align: center; height:90px;line-height: 90px;}
+.return{ float:left; margin:20px;}
+.address_one{ font-size:36px;color:#ffffff; margin-right:20px;}
+.address_two{ font-size:36px;color:#ffffff;margin-left:20px;}
+.rob{ float:right;font-size:28px;color:#ffffff; margin-right:20px; }
+.day_of{background:#53a3ec;text-align: center;  height:90px; line-height: 90px; }
+.day_one{margin-top:34px; float:left;margin-left:20px;}
+.before{float:left; font-size:22px; color:#666666;margin-left:40px;}
+.day_two{ float:right; margin-top:34px;margin-right:20px;}
+.after{ float:right; margin-right:40px; font-size:22px; color:#ffffff;}
+.digital{font-size: 26px; color:#ffffff; margin-right:10px;}
+
+.price{background:#ffffff; margin-top:20px;text-align: center;padding: 40px 20px;border-radius: 5px;}
+.qi{ float:right;}
+.qi strong{ font-size: 34px; color:#ff6700;}
+._address_one{font-size:28px;}
+.time_one{font-size:34px; color:#53a3ec;}
+.price_one{float:left;}
+.price_three{float:right; margin-right:100px;}
+._address_two{font-size:28px}
+.time_two{font-size:34px;}
+.price_two{display:inline-block;}
+.name{font-size: 24px;}
+.all_time{font-size: 24px;}
+.seat{ margin-top: 20px; padding-top:20px;border-top: 1px dashed #cccccc;}
+.seat li{float:left;width:25%; color:#999999; }
+
+.last{margin-top: 20px;
+      padding:40px 20px;
+      background: #0a1927;
+      position: fixed; bottom:0 ;right:0;left:0;
+      text-align: center;
+      font-size: 24px;
+      }
+.last li{float:left;
+         width:24%;
+         color:#ffffff;
+         line-height:10px;}
+.conditions{ border-right: 2px solid #999999;
+             }
+
+
+
+

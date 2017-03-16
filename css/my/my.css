@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+/* CSS初始化 */
+body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select { margin: 0; padding: 0 }
+body { font: 12px"宋体", "Arial Narrow", HELVETICA; background: #fff; -webkit-text-size-adjust: 100%; color: #333; }
+a { color: #333; text-decoration: none; }
+a:hover {text-decoration: none; }
+em { font-style: normal; }
+li { list-style: none; }
+img { border: 0; vertical-align: middle; }
+table { border-collapse: collapse; border-spacing: 0; }
+p { word-wrap: break-word; }
+
+/* 顶部*/
+.frist_box { margin: 0 auto; background: #f1f1f1; }
+.top { width: 100%; height: 326px; background: url(../images/booking/backgr.png) no-repeat center; }
+.top_back { padding: 20px;color:#53a3ec; }
+.top_head { text-align: center; }
+.touxiang { margin: auto; }
+.touxiang span { font-size: 30px; margin-top: 20px; }
+.second_box { width: 100%; background: #fff; margin-top: 20px; }
+.second_box li { height: 104px; }
+.second_box .p_one { background: url(../../images/my/dingdan.png) no-repeat 20px 20px; vertical-align: middle; background-size: 60px 60px; border-bottom: 1px solid #ccc; position: relative; }
+.second_box .p_two { background: url(../../images/my/shoucang.png) no-repeat 20px 20px; vertical-align: middle; background-size: 60px 60px; border-bottom: 1px solid #ccc; position: relative; }
+.second_box .p_three { background: url(../../images/my/anquna.png) no-repeat 20px 20px; vertical-align: middle; background-size: 60px 60px; border-bottom: 1px solid #ccc; position: relative; }
+.second_box .p_four { background: url(../../images/my/xinxi.png) no-repeat 20px 20px; vertical-align: middle; background-size: 60px 60px; position: relative; }
+.second_box span { font-size: 32px; display: inline-block; height: 100px; line-height: 104px; margin-left: 104px; }
+.third_box { width: 100%; margin-top: 20px; background: #fff; }
+.third_box li { height: 104px; }
+.third_box .p_one { background: url(../../images/my/yijian.png) no-repeat 20px 20px; vertical-align: middle; background-size: 60px 60px; border-bottom: 1px solid #ccc; position: relative; }
+.third_box .p_two { background: url(../../images/my/anquna.png) no-repeat 20px 20px; vertical-align: middle; background-size: 60px 60px; border-bottom: 1px solid #ccc; position: relative; }
+.third_box .p_three { background: url(../../images/my/kefu.png) no-repeat 20px 20px; vertical-align: middle; background-size: 60px 60px; position: relative; }
+.third_box span { font-size: 32px; display: inline-block; height: 100px; line-height: 104px; margin-left: 104px; }
+.zhungtai { height: 96px; margin-top: 20px; padding-top: 10px; position: fixed; bottom: 0; left:0; right:0;}
+.bottom_item { font-size: 20px; float: left; height: 100%; line-height: 100%; text-align: center; width: 25%; }
+.bottom_item img { width: 52px; height: 50px; padding-bottom: 10px; }
+.zhungtai .end { color: #2eb1ff; }

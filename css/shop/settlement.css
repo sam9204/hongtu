@@ -1,0 +1,288 @@
+@charset "utf-8";
+/* CSS初始化 */
+body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: "微软雅黑";
+    -webkit-text-size-adjust: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+em {
+    font-style: normal;
+}
+
+li {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+p {
+    word-wrap: break-word;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.mr20 {
+    margin-left: 20px;
+}
+
+.ml20 {
+    margin-right: 20px;
+}
+
+.mt5 {
+    margin-top: 5px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mr10 {
+    margin-left: 10px;
+}
+
+.ml10 {
+    margin-right: 10px;
+}
+
+.pt20 {
+    padding-top: 20px;
+}
+
+.pr20 {
+    padding-right: 20px;
+}
+
+.pb20 {
+    padding-bottom: 20px;
+}
+
+.pr20 {
+    padding-left: 20px;
+}
+
+.pt10 {
+    padding-top: 10px;
+}
+
+.pr10 {
+    padding-right: 10px;
+}
+
+.pb10 {
+    padding-bottom: 10px;
+}
+
+.pr10 {
+    padding-left: 10px;
+}
+
+.f24 {
+    font-size: 24px;
+}
+
+.f30 {
+    font-size: 30px;
+}
+
+body {
+    background: #f1f1f1;
+}
+
+/*头部开始*/
+.header {
+    background: #fff;
+    padding: 30px 20px;
+    height:60px;
+}
+.info {
+    margin-left: 20px;
+}
+.fl {
+    float: left;
+}
+.b0 {
+    position: relative;
+    top: -5px;
+    width: 100%;
+}
+
+.tag {
+    width: 30px;
+    height: 38px;
+}
+.address {
+    margin-top: 5px;
+}
+
+/*头部結束*/
+
+/*详情开始*/
+.details {
+    height: 120px;
+    background: #f1f1f1;
+    padding: 20px 20px;
+}
+
+.details .b {
+    color: #ff6700;
+    width: 100px;
+    height: 100px;
+}
+.details .info {
+    margin-left: 120px;
+}
+
+.taste {
+    color: #999999;
+}
+
+.info .title {
+    display:block;
+}
+
+.info .taste {
+    display:block;
+    margin-top: 20px;
+}
+
+.info .price {
+    display:block;
+    margin-top: 10px;
+}
+
+/*详情结束*/
+
+/*购买数量开始*/
+.buy {
+    padding: 20px;
+    background-color: white;
+}
+
+.add {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #dddddd;
+    color: #ff6700;
+    float: right;
+}
+
+.number {
+    width: 48px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #dddddd;
+    color: #666666;
+    top: -5px;
+    position: relative;
+}
+
+.reduction {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #dddddd;
+    float: left;
+}
+
+/*购买数量结束*/
+
+/*优惠券开始*/
+.coupons {
+    padding: 20px;
+    background: white;
+}
+
+.no {
+    color: #999999;
+}
+
+/*优惠券结束*/
+
+/*留言开始*/
+.Leave {
+    padding: 20px 20px 30px;
+    background: #fff;
+}
+
+.Leave input {
+    color: #999999;
+    border:none;
+    font-size: 24px;
+}
+
+/*留言结束*/
+
+/*支付方式开始*/
+.pay {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.pay1 {
+
+}
+.pay1 span {
+    position: relative;
+    top: -13px;
+}
+
+/*.pay1 input {*/
+    /*float: right;*/
+    /*background-image: url(../../images/mall/round.png);*/
+/*}*/
+
+/*支付方式结束*/
+
+/*商品总额开始*/
+.di {
+    padding:20px;
+    background: #fff;
+    height: 140px;
+}
+
+.di li {
+    margin-top: 10px;
+}
+
+.digital {
+    text-align: right;
+}
+
+/*商品总额结束*/

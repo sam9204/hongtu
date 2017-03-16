@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS初始化 */
+body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select { margin: 0; padding: 0 ;}
+body{ font: "微软雅黑";}
+a { text-decoration: none; }
+em { font-style: normal; }
+li { list-style:none;  }
+a:hover{ color:#ffffff;}
+
+.box{ background: #f1f1f1;}
+.head{background-color: #ffffff; text-align: center; height:90px;line-height: 90px;}
+.re{ float:left; margin:20px; color:#53a3ec;}
+.passengers{ font-size:28px;color:#333333; }
+
+.first{padding:20px; margin: 20px; background: #ffffff; border-radius: 5px;}
+.time{ border-bottom:2px dotted #dddddd; background: #ffffff;padding: 0 20px;}
+.chu{ float:right;font-size:28px;color:#999999; }
+.z{ font-size: 32px; color:#53a3ec;}
+
+.address{ padding: 20px; display: inline-block; }
+.address span{font-size:32px; }
+.card{ margin-bottom:20px; margin-top:20px;color:#999999;}
+.name{ font-size:32px;}
+
+.price{ float:right; margin-top: 20px; text-align: right; padding: 0 20px;}
+.price_one{font-size:26px; color:#ff6700;}
+.del{ width:76px; height:46px; border: 1px solid #53a3ec; padding: 4px; font-size:30px; color:#53a3ec;}
+.deal{ margin-bottom: 40px;}
+
+.last{margin-top: 20px;
+    padding:40px 20px;
+    background: #0a1927;
+    position: fixed; bottom:0 ;right:0;left:0;
+    text-align: center;
+    font-size: 24px;
+    font-color:#ffffff;
+}
+.last li{float:left;
+    width:32%;
+    line-height:10px;}

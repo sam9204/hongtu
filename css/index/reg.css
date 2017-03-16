@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+/* CSS初始化 */
+body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select { margin: 0; padding: 0 }
+body { font: 12px"微软雅黑", "Arial Narrow", HELVETICA; background: #fff; -webkit-text-size-adjust: 100%; color: #333; }
+a { text-decoration: none; }
+a:hover { text-decoration: none; }
+em { font-style: normal; }
+li { list-style:none;  }
+p { word-style: none; }
+table { b-wrap: break-word; }
+/* 顶部 */
+.reg_box{ margin:0 auto;}
+.reg_box .ret{margin-top: 20px;margin-left: 20px;}
+.log{text-align: center;}
+.login {text-align: center; margin-top: 120px; height: 590px; line-height: 120px; }
+.login img {width:40px; height:46px; display: inline-block;float:left; }
+.login input {border:0; width:390px;float:left; margin: 10px 0 0 20px; height:34px; font-size: 30px; color:#999;}
+.login .yanzhen{background:#eb4e20; padding:10px; color:#fff;position:relative; top: -11px; right:-42px;font-size: 26px; border-radius: 5px; }
+.login_one{border-style: none; height:80px; width:590px; line-height: 80px; border-bottom: 1px solid #ccc; margin:0 auto; padding: 25px 20px 0 20px; }
+.wan{position:relative; top: -32px; right:194px;font-size:24px; color:#333;}
+.xin{position:relative; top: -30px; right:-194px;font-size:24px; }
+.sapn{color:#333;}
+.button {
+    background: orange;
+    margin-top: 50px;
+    margin: 60px 20px 0 20px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 36px;
+}
+
+
+

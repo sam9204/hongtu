@@ -1,0 +1,313 @@
+@charset "utf-8";
+/* CSS初始化 */
+body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: "微软雅黑";
+}
+
+a {
+    text-decoration: none;
+}
+
+em {
+    font-style: normal;
+}
+
+li {
+    list-style: none;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.mr20 {
+    margin-left: 20px;
+}
+
+.ml20 {
+    margin-right: 20px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mr10 {
+    margin-left: 10px;
+}
+
+.ml10 {
+    margin-right: 10px;
+}
+
+.pt20 {
+    padding-top: 20px;
+}
+
+.pr20 {
+    padding-right: 20px;
+}
+
+.pb20 {
+    padding-bottom: 20px;
+}
+
+.pr20 {
+    padding-left: 20px;
+}
+
+.pt10 {
+    padding-top: 10px;
+}
+
+.pr10 {
+    padding-right: 10px;
+}
+
+.pb10 {
+    padding-bottom: 10px;
+}
+
+.pr10 {
+    padding-left: 10px;
+}
+
+.f24 {
+    font-size: 24px;
+}
+
+.f30 {
+    font-size: 30px;
+}
+
+body {
+    background: #f1f1f1;
+}
+
+.banner {
+    background: url("../images/mall/banner@3x.png") no-repeat;
+    height: 780px;
+}
+
+.banner_in {
+    z-index: +1;
+    width: 100%;
+}
+
+.s {
+    float: right;
+    margin-top: 20px;
+}
+
+.c {
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.r {
+    margin-top: 20px;
+}
+
+.details {
+    background: #ffffff;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.describe {
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+.price {
+    margin-top: 20px;
+}
+
+.price strong {
+    font-size: 24px;
+    margin: 20px;
+    color: #ff6700;
+}
+
+del {
+    color: #999999;
+    font-size: 18px;
+}
+
+.sold {
+    margin: 20px;
+    color: #666666;
+}
+
+.package {
+    background: #ffffff;
+    height: 59px;
+    border-bottom: 1px solid #dddddd;
+    line-height: 60px;
+}
+
+.parameter {
+    background: #ffffff;
+    height: 59px;
+    line-height: 60px;
+}
+
+.view {
+    background: #ffffff;
+    height: 59px;
+    line-height: 60px;
+}
+
+.graphic {
+    background: #ffffff;
+    height: 59px;
+    line-height: 60px;
+    margin-top: 60px;
+}
+
+.bottom {
+    height: 77px;
+    background: #ffffff;
+    margin-top: 100px;
+    border-top: 1px solid #dddddd;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.y {
+    width: 14%;
+    border: 1px solid #dddddd;
+    height: 57px;
+    text-align: center;
+}
+
+.e {
+    width: 15%;
+    border: 1px solid #dddddd;
+    height: 57px;
+    text-align: center;
+    border-right: 1px solid #ffffff;
+}
+
+.bottom span {
+    width: 70%;
+    background: #ff6700;
+    height: 78px;
+    text-align: center;
+    line-height: 78px;
+    font-size: 28px;
+    color: #ffffff;
+}
+
+/*弹窗开始*/
+.blo {
+    margin-bottom: 20px;
+    height: 30%;
+    padding: 20px;
+}
+
+.window {
+    height: 960px;
+    background: #ffffff;
+    z-index: +999;
+    width: 100%;
+}
+
+.b {
+    margin-top: -30px;
+}
+
+.window b {
+    color: #ff6700;
+    font-size: 24px;
+}
+
+.price {
+    color: #ff6700;
+}
+
+.window .k {
+    font-size: 24px;
+}
+
+.pall {
+    background: #cccccc;
+    width: 80px;
+    height: 28px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+.buy {
+    padding: 40px 0;
+    border-bottom: 1px solid #dddddd;
+    border-top: 1px solid #dddddd;
+    margin: 20px;
+}
+
+.add {
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    line-height: 46px;
+    border: 1px solid #dddddd;
+    color: #ff6700;
+}
+
+.number {
+    width: 72px;
+    height: 44px;
+    text-align: center;
+    line-height: 46px;
+    border: 1px solid #dddddd;
+    color: #666666;
+}
+
+.reduction {
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    line-height: 46px;
+    border: 1px solid #dddddd;
+}
+
+.btn {
+    width: 100%;
+    padding: 20px;
+    background: #ff6700;
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+/*弹窗结束*/

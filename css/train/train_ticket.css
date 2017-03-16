@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+/* CSS初始化 */
+body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select { margin: 0; padding: 0 ;}
+body{ font: "微软雅黑"; -webkit-text-size-adjust: 100%;}
+a { text-decoration: none; }
+a:hover { text-decoration: none; }
+em { font-style: normal; }
+li { list-style:none;  }
+table { border-collapse: collapse; border-spacing: 0; }
+p { word-wrap: break-word; }
+/*顶部*/
+.top_one{text-align: center; background: #fff; height: 90px; line-height: 90px; padding: 20px;vertical-align:middle;}
+.return{ float:left; margin-top: 20px;}
+.train{ font-size:36px;color:#333;}
+.details{ background:#ffffff;padding: 40px;border-bottom: 1px solid #ccc; text-align: center;}
+.content {background-color: #fff; margin: 20px ;}
+.details_one{float:left; }
+.set_out{font-size:24px;color:#999999;}
+.arrive{font-size:24px;color:#999999;}
+.address_one{font-size:40px;color:#333333; margin-top: 20px;}
+.address_two{font-size:40px;color:#333333; margin-top: 20px;}
+.details_two{float:right; }
+.date_of{ background:#ffffff;border-bottom: 1px solid #ccc; height:156px; line-height: 156px; margin:0 20px;}
+.day{float:left;  font-size: 36px; margin-left: 20px;}
+.tomorrow{float:right; color:#157fcb; font-size: 26px; margin-right: 20px;}
+.date_of img{ float:right; margin-top: 56px; margin-right: 20px;}
+.only{  height:156px; line-height: 156px; margin:0 20px;border-bottom: 1px solid #ccc;}
+.high_speed{margin-left: 20px;font-size:36px; float:left;}
+.close{ float:right; margin-top:52px;margin-right: 20px;}
+.button{ height:110px; margin:80px 60px; background: #ff6700; border-radius:5px; line-height: 110px;text-align: center;
+ font-size:36px; color:#ffffff;}
+.bottom_item img{width:52px; height:52px;}
+.bottom_item span{ margin-top:10px; font-size:20px;}
+.bottom_item{padding-top: 20px; text-align: center;height:100%; float:left; width:25%;}
+.nav{height:96px; margin-top:20px; padding-bottom:10px;}
+.nav span{color:#333333;}

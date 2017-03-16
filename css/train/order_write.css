@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS初始化 */
+body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select { margin: 0; padding: 0 ;}
+body{ font: "微软雅黑"; -webkit-text-size-adjust: 100%;}
+a { text-decoration: none; }
+a:hover { text-decoration: none; }
+em { font-style: normal; }
+li { list-style:none;  }
+table { border-collapse: collapse; border-spacing: 0; }
+p { word-wrap: break-word; }
+.back{ background: #f1f1f1;}
+.er{ background:#53a3ec; padding-bottom: 20px; }
+.head{background: #53a3ec; text-align: center; height:90px;line-height: 90px;}
+.return{ float:left; margin:20px; color:#ffffff;}
+.trains{ font-size:28px;color:#ffffff; }
+.moment{float:right;font-size:28px;margin-right:20px;color:#ffffff; }
+.price{background:#ffffff;text-align: center;padding: 20px 20px; border-radius: 5px; margin: 0 20px; color:#333333;}
+.period{margin-right: 72%; font-size: 24px;}
+.two{margin: 10px;}
+._address_one{font-size:28px;color:#333333;}
+.time_one{font-size:34px; color:#333333;}
+.price_one{float:left;}
+.price_three{float:right;}
+._address_two{font-size:28px;color:#333333;}
+.time_two{font-size:34px;color:#333333;}
+.price_two{display:inline-block;}
+.z{ font-size:28px;color:#333333;}
+.add{ padding:40px 20px;margin-top:20px; border-bottom:1px solid #dddddd;background: #ffffff;}
+.adult{ font-size:28px; color:#53a3ec;margin-left: 20px; margin-top:20px;}
+.return_one{ float:right;}
+.number{padding:40px 20px;background: #ffffff;}
+.return_two{ float:right;}
+.notice{font-size:24px; color:#999999; margin-left: 20px;}
+.phone{ font-size:28px;}
+.security{ padding:40px 20px; background: #ffffff; font-size: 28px; border-bottom:1px solid #dddddd;margin-top: 20px;}
+.return_three{ float:right;}
+.three{ float: right;margin-right:20px;color:#999999;}
+.submit{font-size:30px;padding:40px;text-align: center;background:#ff6700; color:#ffffff;position: fixed; bottom:0;width:100%;}
+input{ border:none; }

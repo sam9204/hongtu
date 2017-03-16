@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+/* CSS初始化 */
+body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select { margin: 0; padding: 0 ;}
+body{ font: "微软雅黑"; -webkit-text-size-adjust: 100%;}
+a { text-decoration: none; }
+a:hover { text-decoration: none; }
+em { font-style: normal; }
+li { list-style:none;  }
+table { border-collapse: collapse; border-spacing: 0; }
+p { word-wrap: break-word; }
+
+.scs{ background: #f1f1f1;}
+/*.title{ color:#ffffff;}*/
+.head{background: #53a3ec; text-align: center; height:90px;line-height: 90px;}
+.return{ float:left; margin:20px; color:#ffffff;}
+.trains{ font-size:28px;color:#ffffff; }
+.moment{float:right;font-size:28px;margin-right:20px;color:#ffffff; }
+.price{background:#53a3ec;text-align: center;padding: 40px 20px;}
+
+._address_one{font-size:28px;color:#ffffff;}
+.time_one{font-size:34px; color:#ffffff;}
+.price_one{float:left;}
+.price_three{float:right;}
+._address_two{font-size:28px;color:#ffffff;}
+.time_two{font-size:34px;color:#ffffff;}
+.price_two{display:inline-block; }
+.lici{ font-size:28px;color:#ffffff;}
+
+.day_of{background:#ffffff;text-align: center;  height:90px; line-height: 90px;margin-top: 20px; }
+/*.day_one{margin-top:34px; float:left;margin-left:20px;color:#666666;}*/
+.before{float:left; font-size:22px; color:#666666;margin-left:20px;}
+/*.day_two{ float:right; margin-top:34px;margin-right:20px; color:#53a3ec;}*/
+.after{ float:right; margin-right:20px; font-size:22px; color:#53a3ec;}
+.digital{font-size: 26px; color:#53a3ec; margin-right:10px;}
+.day_of .under{ color:#666666;}
+
+.seating{ margin-top:20px; background:#ffffff;  font-size:28px;padding:40px 20px; border-bottom: 1px solid #cccccc;}
+.button{ width:76px; height:46px; background:#ff6700; border-radius: 5px; text-align: center;line-height: 46px;
+float:right; color:#ffffff;}
+.wr{ margin-left:20%;}
+.we{margin-left:20%; }
+
+.seating_one{ margin-top:20px; background:#ffffff;  font-size:28px;padding:40px 20px; border-bottom: 1px solid #cccccc;}
+.seating_two{ margin-top:20px; background:#ffffff;  font-size:28px;padding:40px 20px; border-bottom: 1px solid #cccccc;}
+.seating_three{ margin-top:20px; background:#ffffff;  font-size:28px;padding:40px 20px; border-bottom: 1px solid #cccccc;}
+
+.button_one{ width:76px; height:46px; background:#cccccc; border-radius: 5px; text-align: center;line-height: 46px;
+    float:right; color:#ffffff;}
+.button_two{ width:76px; height:46px; background:#ff6700; border-radius: 5px; text-align: center;line-height: 46px;
+    float:right; color:#ffffff;}
+.button_three{ width:76px; height:46px; background:#ff6700; border-radius: 5px; text-align: center;line-height: 46px;
+    float:right; color:#ffffff;}

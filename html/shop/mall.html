@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <title>首页-鸿途无限</title>
+    <link rel="stylesheet" type="text/css" href="../../css/shop/mall.css"/>
+    <link rel="stylesheet" type="text/css" href="../../css/aui.css"/>
+
+</head>
+<body>
+<!--选择区域开始-->
+<!--    <select name="" id="">
+        <option value="">北京</option>
+        <option value="">北京</option>
+        <option value="">北京</option>
+    </select>-->
+<!--选择区域结束-->
+<!--  搜索框开始-->
+<!--<div class="aui-searchbar" id="search">
+    <div class="aui-searchbar-input aui-border-radius">
+        <i class="aui-iconfont aui-icon-search"></i>
+        <input type="search" placeholder="请输入搜索内容" id="search-input">
+        <div class="aui-searchbar-clear-btn">
+            <i class="aui-iconfont aui-icon-close"></i>
+        </div>
+    </div>
+    <div class="aui-searchbar-btn" tapmode>取消</div>
+</div>-->
+<header class="aui-bar aui-bar-nav">
+    <a class="aui-pull-left">
+        北京
+    </a>
+
+    <div class="aui-title" style="left:2.2rem; right: 2rem;">
+        <div class="aui-searchbar" id="search">
+            <div class="aui-searchbar-input aui-border-radius">
+                <i class="aui-iconfont aui-icon-search"></i>
+                <input type="search" placeholder="请输入搜索内容" id="search-input">
+
+                <div class="aui-searchbar-clear-btn">
+                    <i class="aui-iconfont aui-icon-close"></i>
+                </div>
+            </div>
+            <div class="aui-searchbar-btn" tapmode>取消</div>
+        </div>
+    </div>
+    <a class="aui-pull-right aui-btn">
+        <img src="../../images/mall/share.png" style="width: 26px; height: 26px;" alt=""/>
+    </a>
+</header>
+<!--  搜索框结束-->
+<div>
+    <!--Banner-->
+    <div class="banner mb20">
+        <img src="../../images/mall/banner.png" alt=""/>
+    </div>
+    <!--Banner結束-->
+
+
+    <!--導航開始-->
+    <div class="nav_btn">
+        <div class="first fl">
+            <div class="fl">
+                Hot recommended
+                <p>热门推荐</p>
+            </div>
+            <div class="fr">
+                <img src="../../images/mall/ba.png" alt=""/>
+            </div>
+        </div>
+
+        <div class="second fr">
+            <div class="fl">
+                Hot recommended
+                <p>热门推荐</p>
+            </div>
+            <div class="fr">
+                <img src="../../images/mall/ba.png" alt=""/>
+            </div>
+        </div>
+
+        <div class="three fl">
+            <div class="fl">
+                Hot recommended
+                <p>热门推荐</p>
+            </div>
+            <div class="fr">
+                <img src="../../images/mall/ba.png" alt=""/>
+            </div>
+        </div>
+
+        <div class="four fr">
+            <div class="fl">
+                Hot recommended
+                <p>热门推荐</p>
+            </div>
+            <div class="fr">
+                <img src="../../images/mall/ba.png" alt=""/>
+            </div>
+        </div>
+
+        <div class="clear"></div>
+
+    </div>
+    <!--導航結束-->
+
+    <!--热门推荐开始-->
+    <div class="recommended">
+        <span>热门推荐</span>
+        <a href="#"><i>更多</i><img src="../../images/index/return_one.png"/></a>
+    </div>
+    <!--热门推荐结束-->
+    <div class="instructions fl">
+        <img src="../../images/mall/j.png" alt=""/>
+
+        <p class="f24">机场*高铁贵宾休息室年卡</p>
+
+        <p class="f18 c9">全国-机场休息室（国内出港服务高铁休息室服务</p>
+        <strong>￥128</strong>
+    </div>
+    <div class="instructions fr">
+        <img src="../../images/mall/j.png" alt=""/>
+
+        <p class="f24">机场*高铁贵宾休息室年卡</p>
+
+        <p class="f18 c9">全国-机场休息室（国内出港服务高铁休息室服务</p>
+        <strong>￥128</strong>
+    </div>
+
+</div>
+
+<script type="text/javascript" src="../../script/api.js"></script>
+<script type="text/javascript">
+    apiready = function () {
+        api.parseTapmode();
+    }
+    var searchBar = document.querySelector(".aui-searchbar");
+    var searchBarInput = document.querySelector(".aui-searchbar input");
+    var searchBarBtn = document.querySelector(".aui-searchbar .aui-searchbar-btn");
+    var searchBarClearBtn = document.querySelector(".aui-searchbar .aui-searchbar-clear-btn");
+    if (searchBar) {
+        searchBarInput.onclick = function () {
+            searchBarBtn.style.marginRight = 0;
+        }
+        searchBarInput.oninput = function () {
+            if (this.value.length) {
+                searchBarClearBtn.style.display = 'block';
+                searchBarBtn.classList.add("aui-text-info");
+                searchBarBtn.textContent = "搜索";
+            } else {
+                searchBarClearBtn.style.display = 'none';
+                searchBarBtn.classList.remove("aui-text-info");
+                searchBarBtn.textContent = "取消";
+            }
+        }
+    }
+    searchBarClearBtn.onclick = function () {
+        this.style.display = 'none';
+        searchBarInput.value = '';
+        searchBarBtn.classList.remove("aui-text-info");
+        searchBarBtn.textContent = "取消";
+    }
+    searchBarBtn.onclick = function () {
+        var keywords = searchBarInput.value;
+        if (keywords.length) {
+            searchBarInput.blur();
+            document.getElementById("search-keywords").textContent = keywords;
+        } else {
+            this.style.marginRight = "-" + this.offsetWidth + "px";
+            searchBarInput.value = '';
+            searchBarInput.blur();
+        }
+    }
+</script>
+
+</body>
+
+</html>

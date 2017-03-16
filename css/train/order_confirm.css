@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS初始化 */
+body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select { margin: 0; padding: 0 ;}
+body{ font: "微软雅黑"; -webkit-text-size-adjust: 100%;}
+a { text-decoration: none; }
+a:hover { text-decoration: none; }
+em { font-style: normal; }
+li { list-style:none;  }
+table { border-collapse: collapse; border-spacing: 0; }
+p { word-wrap: break-word; }
+
+.big_box{background:#f1f1f1;}
+.head{background-color: #ffffff; text-align: center; height:90px;line-height: 90px;}
+.re{ float:left; margin:20px; color:#53a3ec;}
+.confirm{ font-size:28px;color:#333333; }
+.cancel{float:right;font-size:28px;margin-right:20px;color:#53a3ec; }
+
+.price{background:#53a3ec;text-align: center;padding: 20px 20px; border-top-left-radius: 5px; margin-top: 20px; color:#ffffff;
+    border-top-right-radius: 5px; margin-left: 20px; margin-right:20px;}
+.period{margin-right: 72%; font-size: 24px;}
+.two{margin: 10px;}
+._address_one{font-size:28px;color:#ffffff;}
+.time_one{font-size:34px; color:#ffffff;}
+.price_one{float:left;}
+.price_three{float:right;}
+._address_two{font-size:28px;color:#ffffff;}
+.time_two{font-size:34px;color:#ffffff;}
+.price_two{display:inline-block;}
+.z{ font-size:28px;color:#ffffff;}
+.information{padding: 20px 20px; color:#333333; background: #ffffff;margin: 0 20px;border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;}
+.huang{font-size:30px;color:#333333;}
+.ticket{ font-size:18px;color:#999999; margin-left:20px;}
+.card{ font-size:18px;color:#999999; margin-bottom:20px;margin-top: 20px;}
+.fare{ font-size:22px;color:#ff6700;}
+.trip{font-size:18px;color:#999999; margin-left:20px;}
+.left{display: inline-block;}
+.right{float:right; text-align: right;}
+.shi{font-size:30px;color:#333333; }
+.hard{font-size:18px;color:#999999; margin-bottom:20px;margin-top: 20px; }
+.Without{font-size:18px;color:#999999; }
+
+.total{font-size:28px;text-align: end;margin-right:40px;}
+.left_di strong{ font-size:30px; color:#ff6700;  }
+.left_di{  width:60%;display: inline-block;padding:40px 20px;position: fixed; bottom:0; left:0;}
+.left_di img{ margin-left: 20px;}
+.right_di { width:40%;background:#ff6700; text-align: center;padding:40px 20px;position: fixed; bottom:0;right:0;}
+.ti{ font-size:30px;color:#ffffff;}
