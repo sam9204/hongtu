@@ -5,7 +5,6 @@
 * @Last Modified time: 2017-03-14 22:21:26
 /* Gmu v2.1.0 - widget/add2desktop/add2desktop.css, icons.default.css, widget/button/button.css, widget/button/button.default.css, widget/calendar/calendar.css, widget/calendar/calendar.default.css, widget/dialog/dialog.css, widget/dialog/dialog.default.css, widget/popover/popover.css, widget/popover/popover.default.css, widget/dropmenu/dropmenu.css, widget/dropmenu/dropmenu.default.css, widget/gotop/gotop.css, widget/historylist/historylist.css, widget/historylist/historylist.default.css, widget/navigator/navigator.css, widget/navigator/navigator.default.css, widget/panel/panel.css, widget/panel/panel.default.css, widget/progressbar/progressbar.css, widget/progressbar/progressbar.default.css, loading.default.css, widget/refresh/refresh.iscroll.default.css, widget/slider/slider.css, widget/slider/slider.default.css, widget/suggestion/suggestion.css, widget/suggestion/suggestion.default.css, transitions.css, loading.default.css, widget/tabs/tabs.css, widget/tabs/tabs.default.css, widget/toolbar/toolbar.css, widget/toolbar/toolbar.default.css */
 
-
 /*CSS初始化 */
 
 body,
@@ -28,326 +27,332 @@ legend,
 input,
 textarea,
 select {
-	margin: 0;
-	padding: 0
+    margin: 0;
+    padding: 0
 }
 
 body {
-	font: 12px"微软雅黑", "Arial Narrow", HELVETICA;
-	background: #fff;
-	-webkit-text-size-adjust: 100%;
-	color: #666;
+    font: 12px "微软雅黑", "Arial Narrow", HELVETICA;
+    background: #fff;
+    -webkit-text-size-adjust: 100%;
+    color: #666;
 }
 
 a {
-	color: #666;
-	text-decoration: none
+    text-decoration: none;
+    outline: none;
+    color:#000;
 }
 
-a:hover {
-	color: #ff8702;
-	text-decoration: none;
-}
 
 em {
-	font-style: normal;
+    font-style: normal;
 }
 
 li {
-	list-style: none;
+    list-style: none;
 }
 
 img {
-	border: 0;
-	vertical-align: middle;
+    border: 0;
+    vertical-align: middle;
 }
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 p {
-	word-wrap: break-word;
+    word-wrap: break-word;
 }
-
 
 /*开始 */
 
 .big_box {
-	background: #f1f1f1;
-	margin: 0 auto;
+    background: #f1f1f1;
+    margin: 0 auto;
 }
 
 .head {
-	background: #fff;
-	height: 80px;
-	line-height: 80px;
-	text-align: center;
+    background: #fff;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
 }
 
 .L1 {
-	float: left;
-	margin-left: 20px;
+    float: left;
+    margin-left: 20px;
 }
 
 .L1 img {
-	width: 100px;
-	height: 50px;
+    width: 100px;
+    height: 50px;
 }
 
 .message {
-	float: right;
-	margin-right: 20px;
+    float: right;
+    margin-right: 20px;
 }
 
 .message img {
-	width: 40px;
-	height: 40px;
+    width: 40px;
+    height: 40px;
 }
-
 
 /*.message_one{z-index: +1; position:absolute; right:316px; top:24px; }*/
 
 .message_one {
-	z-index: +1;
-	background: #990000;
-	border-radius: 50%;
-	width: 12px;
-	height: 12px;
-	margin-top: 20px;
+    z-index: +1;
+    background: #990000;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    margin-top: 20px;
 }
 
 .head .name {
-	font-size: 30px;
+    position: relative;
+    left: -20px;
+    font-size: 30px;
 }
 
 .header_left {
-	width: 100px;
-	height: 50px;
+    width: 100px;
+    height: 50px;
 }
 
 .banner {
-	width: 100%;
-	height: 240px;
-	background: url(../../images/index/banner.png) no-repeat center center;
-	position: relative;
+    width: 100%;
+    height: 240px;
+    background: url(../../images/index/banner.png) no-repeat center center;
+    position: relative;
 }
 
 .current {
-	width: 108px;
-	height: 13px;
-	position: absolute;
-	left: 50%;
-	margin-left: -54px;
-	bottom: 20px;
+    width: 108px;
+    height: 13px;
+    position: absolute;
+    left: 50%;
+    margin-left: -54px;
+    bottom: 20px;
 }
 
 .current li {
-	width: 13px;
-	height: 13px;
-	margin: 0 7px;
-	background: rgba(255, 255, 255, 255);
-	float: left;
-	border-radius: 100%;
-	cursor: pointer;
+    width: 13px;
+    height: 13px;
+    margin: 0 7px;
+    background: rgba(255, 255, 255, 255);
+    float: left;
+    border-radius: 100%;
+    cursor: pointer;
 }
 
 .headlines {
-	border-radius: 5px;
-	padding: 20px;
-	background-color: #fff;
-	margin-top: 20px;
-	
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+
 }
 
-.headlines span{
-	font-size: 30px;
-	vertical-align: middle;
+.headlines span {
+    font-size: 30px;
+    vertical-align: middle;
 }
 
 .headlines_two {
-	float: right;
-	color: #999;
-	margin-top: 8px;
+    float: right;
+    color: #999;
+    margin-top: 8px;
 }
 
 .recommended_container {
-	background: #fff;
-	margin-top: 20px;
+    background: #fff;
+    margin-top: 20px;
 }
 
 .recommended {
-	height: 72px;
-	font-size: 30px;
-	color: #333;
-	line-height: 72px;
-	padding-left: 20px;
-	padding-right: 20px;
-	border-bottom: 1px solid #ccc;
+    height: 72px;
+    font-size: 30px;
+    color: #333;
+    line-height: 72px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 1px solid #ccc;
 }
 
 .recommended i {
-	margin-right: 10px;
+    padding-right: 20px;
+    background: url("../../images/index/return_one.png") no-repeat right 5px;
 }
+
 .recommended span {
-	border-left: 3px solid #ff8702;
-	padding-left: 10px;
+    border-left: 3px solid #ff8702;
+    padding-left: 10px;
 }
 
 .recommended a {
-	float: right;
+    float: right;
 }
 
-
 .spe {
-	padding: 20px
+    padding: 20px
 }
 
 .spe .spe_one {
-	width: 100%;
-	height: 224px;
+    width: 100%;
+    height: 224px;
 }
 
 .spe_one li {
-	text-align: center;
+    text-align: center;
 }
 
 .snapup {
-	background: #fff;
-	margin-top: 20px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	height: 266px;
+    background: #fff;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 266px;
 }
 
 .snapup_one li {
-	float: left;
-	padding-left: 10px;
-	
+    float: left;
+    padding-left: 10px;
+
 }
 
 .snapup_one li img {
-	height: 226px;
+    height: 226px;
 }
+
 .province {
-	margin-top: 20px;
-	background: #fff;
+    margin-top: 20px;
+    background: #fff;
 }
 
 .province img {
-	width: 100%;
+    width: 100%;
 }
 
 .province .province_one {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .copyright {
-	font-size: 24px;
-	text-align: center;
-	margin-top: 20px;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
 }
 
 .copyright li {
-	float: left;
-	width: 24%;
+    float: left;
+    width: 24%;
 }
 
 .addline {
-	border-right: 2px solid #ccc;
+    border-right: 2px solid #ccc;
 }
 
 .banquan {
-	font-size: 18px;
-	margin-top: 20px;
-	text-align: center;
-	padding-top: 60px;
-	color: #999;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 60px;
+    color: #999;
 }
 
 .zt {
-	background: #fff;
-	width: 100%;
-	height: 96px;
-	margin: 0 auto;
-	position: fixed;
-	bottom: 0;
-	text-align: center;
+    background: #fff;
+    width: 100%;
+    height: 96px;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
 }
 
 .zt li {
-	padding-top: 20px;
-	float: left;
+    padding-top: 20px;
+    float: left;
 }
 
 .zt li p {
-	padding-left: 3px;
-	font-size: 20px;
+    padding-left: 3px;
+    font-size: 20px;
 }
 
 .zt li .p_one {
-	color: blue;
+    color: blue;
 }
 
 .bottom_item div {
-	margin-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 .items {
-	background-color: #fff;
-	padding-top: 20px;
-	padding-bottom: 20px;
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .item {
-	width: 120px;
-	text-align: center;
+    width: 120px;
+    text-align: center;
 }
+
 .item div {
-	margin-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 .item i {
-	display: block;
+    display: block;
 }
 
+.item .one {
+    position: relative;
+}
 
 .second {
-	margin-top: 20px;
+    margin-top: 20px;
 }
 
 .item .prompt {
-	position:absolute;
-	display: inline-block;
-	left: 100px;
-	width: 80px;
-	height: 50px;
+    position: absolute;
+    left: 100px;
+    top: -10px;
+    width: 80px;
+    height: 50px;
 }
-
+* {
+    margin: 0dp;
+    padding: 0dp;
+}
 .item img {
-	position:relative;
-	width: 80px;
-	height: 80px;
+    position: relative;
+    width: 80px;
+    height: 80px;
 }
 
 .bottom_item img {
-	width: 40px;
-	height: 40px;
+    width: 40px;
+    height: 40px;
 }
 
 .item span {
-	padding-top: 10px;
-	font-size: 20px;
+    padding-top: 10px;
+    font-size: 20px;
 }
 
 .bottom_item span {
-	padding-top: 10px;
-	font-size: 18px;
+    padding-top: 10px;
+    font-size: 18px;
 }
 
 .bottom_item {
-	padding-top: 20px;
-	text-align: center;
-	height: 96px;
+    padding-top: 20px;
+    text-align: center;
+    height: 96px;
 }
