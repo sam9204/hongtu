@@ -3,9 +3,49 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title></title>
+    <style type="text/css">
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        .news {
+            border: 1px solid #0075f0;
+            overflow: hidden;
+        }
+        .news ul {
+            /*去掉样式*/
+            list-style: none;
+        }
+        .news ul li{
+            overflow: hidden;
+            border-bottom: 1px dashed gray;
+
+        }
+        .title {
+            float: left;
+        }
+        .date {
+            float: right;
+        }
+
+        .banner {
+            height: 465px;
+            background: url("../images/mall/b.png") no-repeat center;;
+        }
+    </style>
 </head>
 <body>
 <div>
+
+    <div class="news">
+        <ul>
+            <li><span class="title">hahahaahha</span><span class="date">2015-11-01</span></li>
+            <li><span class="title">hahahaahha</span><span class="date">2015-11-01</span></li>
+            <li><span class="title">hahahaahha</span><span class="date">2015-11-01</span></li>
+        </ul>
+    </div>
+
+
     <!--name要相同，checkbox也一樣
         加了label标签和input绑定之后，点击文字也能显示选中状态，checkbox同理
     -->
@@ -19,12 +59,12 @@
         <input type="checkbox" name="favor"/>足球
     </div>
 
-    </div>
+</div>
 <!--用label标签绑定输入框之后，点击文本，文本输入框也能获取焦点-->
-        <label for="phone">手机号</label>
-        <input type="text" id="phone"/>
-        <input type="submit" value="提交">
-    </div>
+<label for="phone">手机号</label>
+<input type="text" id="phone"/>
+<input type="submit" value="提交">
+</div>
 
 <!--
     块级元素可以设置宽高，行内元素设置宽高无效
@@ -32,17 +72,31 @@
     行内元素添加float之后 设置宽高有效
 
     块级元素转换成行内元素之后设置宽高无效
+
+    float脱离规则
+    一个父亲，是不能被浮动的儿子，撑出高的
+
+    内墙、外墙发
+    <div class="cl h16"></div>
+
+    overflow: hidden放在父节点，内容溢出不显示
+    也可以清除浮动，解决浮动儿子撑不出高的问题
+
+
+    父相子绝(父节点设置相对定位，子节点设置绝对定位会根据父节点左上角的位置进行移动)
 -->
 
-    <div>
-        <div style="float: left">
-            <img  src="../images/mall/1.jpg" alt=""/>
-        </div>
-        <p>asdfasdfkahkdjfhkalhsdkfafasdfasdfkahkdj
-            fhkalhsdkfafasdfasdfkahkdjfhkalhsdkfafa
-            sdfasdfkahkdjfhkalhsdkfafasdfasdfkahkdj
-            fhkalhsdkfaf</p>
+<div>
+    <div style="float: left;">
+        <img src="../images/mall/1.jpg" alt=""/>
     </div>
+    <p>asdfasdfkahkdjfhkalhsdkfafasdfasdfkahkdj
+        fhkalhsdkfafasdfasdfkahkdjfhkalhsdkfafa
+        sdfasdfkahkdjfhkalhsdkfafasdfasdfkahkdj
+        fhkalhsdkfaf</p>
+</div>
+
+
 </div>
 
 </body>
